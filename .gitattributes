@@ -1,0 +1,32 @@
+# Avoid misidentifying the project as Mathematica
+*.wlt linguist-vendored
+*.nb linguist-vendored
+*.wl linguist-vendored
+
+# Ensure C# is the main language
+*.cs linguist-detectable=true
+
+# Mark Unity-generated files as vendored to avoid them being counted in language stats
+*.asset linguist-vendored
+*.unity linguist-vendored
+*.prefab linguist-vendored
+*.mat linguist-vendored
+*.meta linguist-vendored
+*.shadergraph linguist-vendored
+*.shadersubgraph linguist-vendored
+*.controller linguist-vendored
+*.anim linguist-vendored
+*.lighting linguist-vendored
+*.playable linguist-vendored
+*.preset linguist-vendored
+*.inputactions linguist-vendored
+*.terrainlayer linguist-vendored
+
+# Ignore library and binary files
+Library/ linguist-vendored
+Temp/ linguist-vendored
+Obj/ linguist-vendored
+Build/ linguist-vendored
+Builds/ linguist-vendored
+Logs/ linguist-vendored
+UserSettings/ linguist-vendored
